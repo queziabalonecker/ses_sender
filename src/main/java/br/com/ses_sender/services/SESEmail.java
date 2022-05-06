@@ -1,14 +1,8 @@
 package br.com.ses_sender.services;
 
 public class SESEmail {
-  private String bodyText = "Olá este é um email";
-  private String bodyHTML = "<html>"
-                + "<head></head>"
-                + "<body>"
-                + "<h1>Olá este é um teste!</h1>"
-                + "<p> Enviado pelo Java.</p>"
-                + "</body>"
-                + "</html>";
+  private String bodyText;
+  private String bodyHTML;
   
   
     public SESEmail (String bodyText, String bodyHTML) {
